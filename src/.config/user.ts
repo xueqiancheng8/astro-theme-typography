@@ -3,9 +3,8 @@ import type { UserConfig } from '~/types'
 export const userConfig: Partial<UserConfig> = {
   site: {
     title: '圆羊庄',
-    subtitle: '一个清甜的空间',
+    subtitle: '专为羊羊和小圆打造',
     author: '程小圆',
-    description: '专为羊羊和小圆打造',
     website: 'https://https://www.yuanyangzhuang.com/',
     pageSize: 5,
     navLinks: [
