@@ -3,29 +3,11 @@ import type { UserConfig } from '~/types'
 export const userConfig: Partial<UserConfig> = {
   site: {
     title: '圆羊庄',
-    subtitle: 'Typography',
-    author: 'Moeyua',
-    description: 'Rediscory the beauty of typography',
-    website: 'https://astro-theme-typography.vercel.app/',
+    subtitle: '一个清甜的空间',
+    author: '程小圆',
+    description: '专为羊羊和小圆打造',
+    website: 'https://https://www.yuanyangzhuang.com/',
     pageSize: 5,
-    socialLinks: [
-      {
-        name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'rss',
-        href: '/atom.xml',
-      },
-      {
-        name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-    ],
     navLinks: [
       {
         name: 'Posts',
