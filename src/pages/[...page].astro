@@ -24,15 +24,15 @@ const { page } = Astro.props
 ---
 
 <LayoutDefault>
-  <!-- ✅ Hero Image shown on every page -->
-  <img
-    src="/strawberryyang.PNG"
-    alt="Welcome image"
-    class="mx-auto my-6 rounded-xl shadow-sm"
-    style="max-width: 42rem; width: 100%;"
-/>
-
-  />
+  <!-- ✅ Image in aligned container -->
+  <section contain-layout>
+    <img
+      src="/strawberryyang.PNG"
+      alt="Welcome image"
+      class="my-6 rounded-xl shadow-sm"
+      style="width: 100%;"
+    />
+  </section>
 
   <!-- Blog post list -->
   <section contain-layout flex="~ col gap-7.5">
