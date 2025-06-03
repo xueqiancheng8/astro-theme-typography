@@ -67,4 +67,21 @@ export const userConfig: Partial<UserConfig> = {
   latex: {
     katex: false,
   },
+  {
+  comments: {
+    giscus: {
+      repo: 'xueqiancheng8/astro-theme-typography'
+      repoId: 'R_kgDOKy9HOQ'
+      category: 'General'
+      categoryId: 'DIC_kwDOKy9HOc4CegmW'
+      mapping: 'title'
+      strict: '0'
+      reactionsEnabled: '1'
+      emitMetadata: '1'
+      inputPosition: 'top'
+      theme: 'light'
+      lang: 'zh-CN'
+      loading: 'lazy'
+    }
+  }
 }
