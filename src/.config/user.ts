@@ -57,9 +57,6 @@ export const userConfig: Partial<UserConfig> = {
   rss: {
     fullText: true,
   },
-  comment: {
-    // disqus: { shortname: "typography-astro" },
-  },
   analytics: {
     googleAnalyticsId: '',
     umamiAnalyticsId: '',
