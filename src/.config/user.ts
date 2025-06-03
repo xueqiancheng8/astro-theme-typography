@@ -67,7 +67,6 @@ export const userConfig: Partial<UserConfig> = {
   latex: {
     katex: false,
   },
-  {
   comments: {
     giscus: {
       repo: 'xueqiancheng8/astro-theme-typography'
