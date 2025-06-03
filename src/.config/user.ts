@@ -28,6 +28,7 @@ export const userConfig: Partial<UserConfig> = {
   categoryMap: [
     { name: '日记', path: 'journals' },
     { name: '创作', path: 'creative work' },
+    { name: '信', path: 'letters' },
   ],
     footer: [
       '© %year <a target="_blank" href="%website">%author</a>',
