@@ -69,14 +69,15 @@ comment: {
     repoId: 'R_kgDOKy9HOQ',
     category: 'General',
     categoryId: 'DIC_kwDOKy9HOc4CegmW',
-    mapping: 'title',
-    strict: '0',
-    reactionsEnabled: '1',
-    emitMetadata: '0',
+    mapping: 'title', // more reliable for non-ASCII URLs
+    strict: false,
+    reactionsEnabled: true,
+    emitMetadata: false,
     inputPosition: 'top',
     theme: 'preferred_color_scheme',
     lang: 'zh-CN',
     loading: 'lazy',
   },
 },
+
 }
