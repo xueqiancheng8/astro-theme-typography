@@ -5,7 +5,7 @@ export const userConfig: Partial<UserConfig> = {
     title: '圆羊庄',
     subtitle: '专为羊羊和小圆打造',
     author: '程小圆',
-    website: 'https://https://www.yuanyangzhuang.com/',
+    website: 'https://www.yuanyangzhuang.com/',
     pageSize: 5,
     navLinks: [
       {
