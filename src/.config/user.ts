@@ -69,7 +69,7 @@ comment: {
     repoId: 'R_kgDOKy9HOQ',
     category: 'General',
     categoryId: 'DIC_kwDOKy9HOc4CegmW',
-    mapping: 'title', // more reliable for non-ASCII URLs
+    mapping: 'pathname', 
     strict: false,
     reactionsEnabled: true,
     emitMetadata: false,
