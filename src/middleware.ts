@@ -13,7 +13,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
     return new Response('Unauthorized', {
       status: 401,
       headers: {
-        'WWW-Authenticate': 'Basic realm="圆羊庄 — Private Site"',
+        'WWW-Authenticate': 'Basic realm="Yuanyangzhuang — Private Site"',
       },
     })
   }
