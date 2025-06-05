@@ -5,9 +5,9 @@ import { LANGUAGES } from '~/i18n.ts'
 export const onRequest = defineMiddleware(async (context, next) => {
   // === 🔐 Basic Auth Protection ===
   const auth = context.request.headers.get('authorization')
-  const username = 'yang'
-  const password = 'happy30'
-  const expected = 'Basic ' + btoa(`${yuanyang}:${892464}`)
+  const username = 'yuanyang'
+  const password = '892464'
+  const expected = 'Basic ' + btoa(`${username}:${password}`)
 
   if (auth !== expected) {
     return new Response('Unauthorized', {
@@ -34,4 +34,3 @@ export const onRequest = defineMiddleware(async (context, next) => {
 
   return next()
 })
-
