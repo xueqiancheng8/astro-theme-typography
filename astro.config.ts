@@ -10,7 +10,7 @@ import { themeConfig } from './src/.config'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://www.yuanyangzhuang.com',
+  output: 'server',
   prefetch: true,
   base: '/',
   markdown: {
